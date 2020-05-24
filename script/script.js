@@ -9,7 +9,7 @@ $('.menu-btn').on('click', function(e) {
   });
   
 
-  $('.burger-menu-link').on('click', function(e) {
+  $('.div-links a').on('click', function(e) {
     e.preventDefault();
     $('.section').toggleClass('section-active') && $('.gray').toggleClass('gray-active');
   });
